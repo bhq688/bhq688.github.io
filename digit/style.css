@@ -1,7 +1,7 @@
 /* taustan väri */
 .navbar-custom {
     background-color:rgb(208, 226, 43);	}
-    /* ekstin väri */
+    /* tekstin väri */
     .navbar-custom .navbar-text{
     color:#ffffff;
     }
@@ -14,8 +14,15 @@
     .navbar-custom .nav-item:hover .nav-link {
     color: #1512df;
     }
-    
+    /* karusellin kuvateksti */
     .carousel-caption {
         color: #9b0a0a;
         background-color: rgb(208, 226, 43);
     }
+
+    .container {
+        color: #1512df;
+        
+    }
+
+    
