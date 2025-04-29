@@ -13,6 +13,27 @@
 
         <script>
             fetch(tietue.json)
+                // JSON JS Olio muotoon
+                .then(function (response) {
+                    return response.json();
+                })
+                //Kutsutaan funktio kerro ja sille json vastaus
+                .then(function (responseJson) {
+                    kerro(responseJson);
+                })
+                // Jos tuli virhe
+                .catch(function (error) {
+                    document.getElementById("vastaus").innerHTML = tiedot;
+                })
+            // funktio joka hakee tiedon ja kirjoittaa ne sivulle
+            function kerro(obj) {
+                let tiedot = "<h1>" + obj.otsikko + "</h1><br>"
+                + obj.kuvaus + "<br><hr>"
+                + "<p><img src=" + obj.kuva + "></p>";
+
+
+                document.getElementById("vastaus").innerHTML = tiedot;
+            }
         </script>
     </main>
 
