@@ -1,0 +1,15 @@
+.navbar-custom {
+    background-color:rgb(208, 226, 43);	}
+    /* tekstin väri */
+    .navbar-custom .navbar-text{
+    color:#ffffff;
+    }
+    /* linkin väri */
+    .navbar-custom .navbar-nav .nav-link {
+    color:#ffffff;;
+    }
+    /* aktiivisen & hover-linkin väri */ 
+    .navbar-custom .nav-item.active .nav-link,
+    .navbar-custom .nav-item:hover .nav-link {
+    color: #1512df;
+    }
