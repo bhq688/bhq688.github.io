@@ -1,6 +1,6 @@
 {
     "otsikko": "JSON-datan käsittelyä",
-    "kuvaus": "haetaan JSON-muotoista dataa",
+    "kuvaus": "Tänne haetaan JSON-muotoista dataa",
     "kuva": "mouse.png",
     "opintojakso": {
         "nimi": "Digitekniikat",
@@ -10,13 +10,17 @@
     "sisalto": [
         "low-code",
         "sisällönhallintajärjestelmät",
-        "responsiivinen käyttöliittymä",
-        "tiedon haku jhshj rest-rajapinnan yli"
+        "responsiivinen käyttöliittymä ja komponentit",
+        "tiedon haku julkisista palveluista rest-rajapinnan yli"
     ],
     "tekniikat": [
         {
             "aihe": "low-code",
             "linkki": "https://weebly.com/"
+        },
+        {
+            "aihe": "bootstrap",
+            "linkki": "https://getbootstrap.com/"
         },
         {
             "aihe": "wordpress",
